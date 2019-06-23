@@ -42,48 +42,19 @@ npm run build
 npm run test
 ```
 
-## Endpoints
-
-### Libraries
-
-#### Find all
+### Login
 ```
-curl -X GET http://localhost:3000/libraries
-```
-
-
-```
-curl -X GET http://localhost:3000/libraries?location=43.6,1.4
-```
-
-#### Find
-```
-curl -X GET http://localhost:3000/libraries/id1
-```
-
-#### Create
-```
-curl -X POST http://localhost:3000/libraries \
+curl -X POST http://localhost:3000/auth/login \
   -H 'Content-Type: application/json' \
   -d '{
-    "name": "Ombre blanche Toulouse",
-    "location": [43.60539, 1.44862]
+	"username" : "nicolas-bisti",
+	"password" : "1234"
 }'
 ```
 
-#### Update
+### Logout
 ```
-curl -X PUT http://localhost:3000/libraries/id1 \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "name": "Express Ramonville",
-    "location": [43.60539, 1.44862]
-}'
-```
-
-#### Delete
-```
-curl -X DELETE http://localhost:3000/libraries/id1
+curl -X GET http://localhost:3000/auth/logout
 ```
 
 ### Authors
