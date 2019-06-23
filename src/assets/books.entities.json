@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Autre Monde - L'alliance des Trois",
+    "description": "Tome 1",
+    "publicationDate": 852076800000,
+    "authors": [
+      "Maxime Chattam"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Autre Monde - Malronce",
+    "description": "Tome 2",
+    "publicationDate": 883612800000,
+    "authors": [
+      "Maxime Chattam"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Autre Monde - Le coeur de la Terre",
+    "description": "Tome 3",
+    "publicationDate": 915148800000,
+    "authors": [
+      "Maxime Chattam"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Autre Monde - Entropia",
+    "description": "Tome 4",
+    "publicationDate": 946684800000,
+    "authors": [
+      "Maxime Chattam"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Autre Monde - Neverland",
+    "description": "Tome 5",
+    "publicationDate": 1041379200000,
+    "authors": [
+      "Maxime Chattam"
+    ]
+  }
+]
