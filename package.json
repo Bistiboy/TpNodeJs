@@ -25,7 +25,7 @@
     "lodash": "^4.17.11",
     "memory-cache": "^0.2.0",
     "moment": "^2.24.0",
-    "mongoose": "^5.5.2",
+    "mongoose": "^5.7.5",
     "passport": "^0.4.0",
     "passport-json": "^1.2.0",
     "pm2": "^3.5.0",
